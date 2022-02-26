@@ -1,17 +1,14 @@
 <template>
-  <h1 class="text-gray-700 mt-12 text-3xl">Hello, World!</h1>
+  <div>
+    <h1 class="text-slate-700">{{ message }}</h1>
+  </div>
 </template>
 <script>
 export default {
   data() {
-    return {};
+    return {
+      message: 'Hello, World',
+    };
   },
-  components: {},
-  methods: {},
 };
 </script>
-<style>
-#app {
-  @apply text-center justify-center h-screen flex flex-col;
-}
-</style>

@@ -4,6 +4,7 @@ This is a simple template that sets up the following:
 
 - `vue 3`
 - `tailwindcss`
+- `typescript`
 
 # Why is This?
 
